@@ -4,6 +4,9 @@ const taskForm = document.getElementById('task-form');
 const taskInput = document.getElementById('task-text');  
 const taskList = document.getElementById('task-list');  
   
+
+
+
 function fetchTasks() {
   fetch(API_URL)  
     .then(res => res.json())  
